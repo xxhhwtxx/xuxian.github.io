@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>今晚，整片星空将为你一人闪烁</title>
+    <style>
+      
+
+    </style>
+    <link rel="stylesheet" href="skystar.css">
+  </head>
+  <body>
+    <video id="videofilm" poster="skystar2.jpg" autoplay muted loop>
+      <source src="skystar.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay" aria-hidden="true"></div>
+    <div class="textone">
+      <h1>look at the stars</h1>
+    </div>
+    <div class="texttwo">
+      <h1>look how they shine for u</h1>
+    </div>
+    <div class="textthree">
+      <h1></h1>
+    </div>
+    <audio id="bg-audio" src="晴天.mp3" preload="auto" loop></audio>
+
+    <div class="container"></div>
+
+    <div id="media-controls" class="media-controls">
+      <button id="play-btn" class="control-btn">播放</button>
+      <label class="vol-label">音量
+        <input id="vol-slider" type="range" min="0" max="1" step="0.01" value="0.8">
+      </label>
+      <button id="mute-btn" class="control-btn">静音</button>
+    </div>
+
+    <script src="skystar.js"></script>
+    
+    
+  </body>
+</html>
